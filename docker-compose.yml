@@ -5,7 +5,7 @@ services:
     stdin_open: true  # -i
     tty: true         # -t
     ports:
-      - 25565:25566
+      - 25565:25565
     volumes:
       - type: bind
         source: ./server
